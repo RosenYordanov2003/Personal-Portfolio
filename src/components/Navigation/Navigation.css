@@ -1,0 +1,63 @@
+.nav-container{
+   width: 100%;
+   background-color: #1b1826;
+   padding: 2.2rem 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+nav{
+    width: 100%;
+}
+.navigation{
+    width: 80%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation li{
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out all;
+}
+.navigation li:hover::after{
+   width: 100%;
+}
+.github-button{
+    background-color: transparent;
+    color: #674aa3;
+    border: 1px solid #674aa3;
+    width: 200px;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    transition: 0.3s ease-in all;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.github-button:hover{
+    border-radius: 1px solid white;
+    color: white;
+    background-color: #674aa3 ;
+}
+
+.github-button:active{
+    opacity: 0.7;
+}
+.navigation li::after{
+    width: 0%;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    height:3px;
+    background-color: white;
+    transition: 0.3s ease-in-out all;
+}
+
