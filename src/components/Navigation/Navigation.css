@@ -33,16 +33,16 @@ nav{
     border: 1px solid #674aa3;
     width: 200px;
     padding: 0.4rem 1rem;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.3s ease-in all;
     display: block;
     text-decoration: none;
     text-align: center;
     font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 .github-button:hover{
-    border-radius: 1px solid white;
     color: white;
     background-color: #674aa3 ;
 }

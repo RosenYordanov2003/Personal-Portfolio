@@ -1,0 +1,7 @@
+.skills-section{
+    background-color: #1e1d2b;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}

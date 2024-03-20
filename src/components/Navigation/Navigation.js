@@ -11,7 +11,7 @@ export default function Navigation(){
                 <li>Education</li>
             </ul>
         </nav>
-       <a className="github-button" href="https://github.com/RosenYordanov2003">Github</a>
+       <a className="github-button" href="https://github.com/RosenYordanov2003" target="_blank">Github</a>
       </header>
     )
 }
