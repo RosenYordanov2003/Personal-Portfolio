@@ -1,0 +1,52 @@
+.project-card-img-container{
+    width: 96%;
+}
+.project-card-img-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.project-card{
+    background-color: #161520;
+    padding: 2rem;
+    width: 84%;
+    margin: auto;
+    border-radius: 28px;
+}
+.project-technologies{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-inline: 2rem;
+    padding-block: 2.5rem;
+    width: 100%;
+}
+.project-technologies li{
+    color: #4f3f83;
+    background-color: #1d192e;
+    margin: auto;
+    padding: 0.6rem 0.2rem;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+.about-project{
+    padding-inline: 2rem;
+    padding-block: 2.5rem;
+}
+.project-title{
+    color: white;
+}
+.project-duration{
+    color: white;
+    font-weight: bolder;
+}
+.project-description{
+    color: white;
+    line-height: 1.7;
+    width: 70%;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}

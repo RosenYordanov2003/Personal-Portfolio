@@ -1,0 +1,19 @@
+.projects-section{
+    background-color: #1e1d2b;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.projects-title,
+.projects-section-sub-title{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+.projects-section-sub-title{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
