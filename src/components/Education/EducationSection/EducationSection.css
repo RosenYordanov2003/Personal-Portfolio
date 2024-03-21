@@ -12,55 +12,10 @@
     justify-content: center;
 }
 
-/* Education Container */
 .education-container{
     width: 54%;
     border: 4px solid #211b4b;
     padding: 3rem 2.8rem;
     border-radius: 20px;
     box-shadow: 0rem 0.4rem 1.2rem rgba(132, 139, 200, 0.10);
-}
-
-.education-logo-container img{
-    width: 50px;
-    height: auto;
-}
-.education-institution-img-container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-.education-institution-title,
-.modules-title{
-    font-size: 1.7rem;
-    color: white;
-    margin: 0;
-}
-.education-grade{
-    font-weight: bolder;
-}
-.education-container :where(.education-grade, .education-institution-description){
-    color: white;
-    font-size: 1.4rem;
-}
-.education-institution-description{
-    line-height: 1.8;
-}
-
-/* Module LiST */
-.education-modules{
-    list-style: none;
-    padding: 0;
-}
-.education-modules li{
-    margin-bottom: 1rem;
-}
-.education-modules li a{
-    color: white;
-    display: block;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-.modules-title{
-    margin-bottom: 2rem;
 }
