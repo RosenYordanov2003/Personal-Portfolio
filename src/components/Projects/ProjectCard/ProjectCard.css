@@ -12,6 +12,10 @@
     width: 84%;
     margin: auto;
     border-radius: 28px;
+    transition: 0.3s ease-in transform;
+}
+.project-card:hover{
+    transform: translateY(-1rem);
 }
 .project-technologies{
     list-style: none;
