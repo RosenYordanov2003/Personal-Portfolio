@@ -1,0 +1,41 @@
+.education-logo-container img{
+    width: 50px;
+    height: auto;
+}
+.education-institution-img-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.education-institution-title,
+.modules-title{
+    font-size: 1.7rem;
+    color: white;
+    margin: 0;
+}
+.education-grade{
+    font-weight: bolder;
+}
+.education-container :where(.education-grade, .education-institution-description){
+    color: white;
+    font-size: 1.4rem;
+}
+.education-institution-description{
+    line-height: 1.8;
+}
+.education-modules{
+    list-style: none;
+    padding: 0;
+}
+.education-modules li{
+    margin-bottom: 1rem;
+}
+.education-modules li a{
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.modules-title{
+    margin-bottom: 2rem;
+}
