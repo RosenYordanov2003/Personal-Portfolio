@@ -1,6 +1,5 @@
 import "../ProjectsSection/ProjectsSection.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
-
 export default function ProjectsSection(){
 
     const bookingProject = {

@@ -3,14 +3,28 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import SkillsSection from "./components/Skills/SkillsSection/SkillsSection";
 import ProjectsSection from "./components/Projects/ProjectsSection/ProjectsSection";
 import EducationSection from "./components/Education/EducationSection/EducationSection";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
 function App() {
+
+  const styleObject = {
+    transform: 'translateX(0)'
+  };
+
   return (
     <>
      <Navigation/>
-     <HeroSection/>
-     <SkillsSection/>
-     <ProjectsSection/>
+      <HeroSection/>
+     <ScrollAnimation animateIn="fadeIn" duration={2} delay={200} animateOnce={true}>
+      <SkillsSection/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
+      <ProjectsSection/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
      <EducationSection/>
+    </ScrollAnimation>
     </>
   );
 }
