@@ -19,16 +19,17 @@ export default function EducationSection(){
                     module contains courses with a strong focus on practice, and at the end of each course, students pass a practical exam, demonstrating the acquired skills.
                  </p>
                  <ul className="education-modules">
-                    <li><a>Data Structures Advanced</a></li>
-                    <li><a>Data Structures Fundamentals</a></li>
-                    <li><a>ASP.NET Advanced</a></li>
-                    <li><a>ASP.NET Fundamentals</a></li>
-                    <li><a>JavaScript Frontend</a></li>
-                    <li><a>HTML && CSS</a></li>
-                    <li><a>C# OOP</a></li>
-                    <li><a>C# Advanced</a></li>
-                    <li><a>C# Fundamentals</a></li>
-                    <li><a>C# Basics</a></li>
+                    <h3 className="modules-title">Passed Modules</h3>
+                    <li><a href="/Certificates/DataStructuresAdvancedCertificate.jfif">Data Structures Advanced</a></li>
+                    <li><a href="/Certificates/DataStructuresFundamentalsCertificate.jfif">Data Structures Fundamentals</a></li>
+                    <li><a href="/Certificates/ASP.NETAdvancedCertificate.jfif">ASP.NET Advanced</a></li>
+                    <li><a href="/Certificates/ASP.NETFundamentalsCertificate.jfif">ASP.NET Fundamentals</a></li>
+                    <li><a href="/Certificates/JSFrontendCertificate.jfif">JavaScript Frontend</a></li>
+                    <li><a href="/Certificates/HTMLCSSCertificate.jfif">HTML && CSS</a></li>
+                    <li><a href="/Certificates/CSharpOOPCertificate.jfif">C# OOP</a></li>
+                    <li><a href="/Certificates/CSharpAdvancedCertificate.jfif">C# Advanced</a></li>
+                    <li><a href="/Certificates/CSharpFundamentalsCertificate.jfif">C# Fundamentals</a></li>
+                    <li><a href="/Certificates/CSharpBasicsCertificate.jfif">C# Basics</a></li>
                  </ul>
              </div>
          </div>

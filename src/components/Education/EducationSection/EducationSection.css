@@ -6,12 +6,13 @@
 }
 .education-section{
     background-color: #1e1d2b;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+/* Education Container */
 .education-container{
     width: 54%;
     border: 4px solid #211b4b;
@@ -29,7 +30,8 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-.education-institution-title{
+.education-institution-title,
+.modules-title{
     font-size: 1.7rem;
     color: white;
     margin: 0;
@@ -43,4 +45,22 @@
 }
 .education-institution-description{
     line-height: 1.8;
+}
+
+/* Module LiST */
+.education-modules{
+    list-style: none;
+    padding: 0;
+}
+.education-modules li{
+    margin-bottom: 1rem;
+}
+.education-modules li a{
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.modules-title{
+    margin-bottom: 2rem;
 }
