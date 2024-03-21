@@ -1,5 +1,6 @@
 import EducationModule from "../EducationModules/EducationModule"
 import "../EducationCard/EducationCard.css";
+import "../EducationCard/EducationCardResponsive.css";
 
 export default function EducationCard({educationObject}){
 

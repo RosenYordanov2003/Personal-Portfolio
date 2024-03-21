@@ -1,4 +1,5 @@
 import "../ProjectCard/ProjectCard.css";
+import "../ProjectCard/ProjectCardResponsive.css";
 import {useState} from "react";
 
 export default function ProjectCard({project}){

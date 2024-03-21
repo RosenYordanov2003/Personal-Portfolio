@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+   .education-title{
+    font-size: 1.4rem;
+   }
+   .education-section{
+     padding: 2rem;
+   }
+   .education-container{
+    width: 100%;
+  }    
+}
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  .education-container{
+    width: 100%;
+  }
+  .education-section{
+    padding: 2.2rem 3.5rem;
+  }
+  .education-title{
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .education-container{
+    width: 80%;
+  }
+}

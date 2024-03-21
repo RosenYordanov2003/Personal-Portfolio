@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+  .skills{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 3rem 2rem;
+  }
+  .skill-name{
+    font-size: 1rem;
+  }
+  .skill-logo{
+    width: 35px;
+    height: 35px;
+  }
+  .skill-card{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  .skills{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    height: auto;
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+  .skill-name{
+    font-size: 1.2rem;
+  }
+  .skill-logo{
+    width: 40px;
+    height: 40px;
+  }
+  .skill-card{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+  .skills{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    height: auto;
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+  .skill-card{
+    width: 80%;
+  }
+}

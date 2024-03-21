@@ -1,4 +1,5 @@
 import "../HeroSection/HeroSection.css";
+import "../HeroSection/HeroSectionResponsive.css";
 import Pdf from "../../documents/Cv.pdf";
 
 export default function HeroSection(){

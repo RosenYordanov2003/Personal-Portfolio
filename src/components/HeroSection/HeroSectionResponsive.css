@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+    .img-container{
+        width: 220px;
+        height: 220px;
+        padding: 0.8rem;
+    }
+    .img-container img{
+        width: 180px;
+        height: 180px;
+    }
+    .about-me-description{
+        font-size: 1.1rem;
+        line-height: 1.5;
+        width: 90%;
+    }
+    .resume-link{
+        width: 70%;
+    }
+    .hero-section-title{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 702px) and (max-width: 1200px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2.2rem 3.5rem;
+    }
+    .hero-section-title{
+        font-size: 2rem;
+    }
+    .about-me-description{
+        font-size: 1.4rem;
+        line-height: 1.8;
+        width: 90%;
+    }
+}

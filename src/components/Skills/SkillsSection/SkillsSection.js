@@ -1,5 +1,6 @@
 import SkillsCard from "../SkillsCard/SkillsCard";
 import "../SkillsSection/SkillsSection.css";
+import "../SkillsSection/SkillsSectionResponsive.css";
 
 export default function SkillsSection(){
     const frontendSkills = [

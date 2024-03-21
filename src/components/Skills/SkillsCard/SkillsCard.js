@@ -1,4 +1,5 @@
 import "../SkillsCard/SkillsCard.css";
+import "../SkillsCard/SkillCardResponsive.css";
 
 export default function SkillsCard({skillsArray, title}){
      const skills = skillsArray.map((skill, index) => {

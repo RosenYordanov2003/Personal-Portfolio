@@ -1,4 +1,5 @@
 import "../EducationSection/EducationSection.css";
+import "../EducationSection/EducationSectionResponsive.css";
 import "../EducationCard/EducationCard";
 import EducationCard from "../EducationCard/EducationCard";
 export default function EducationSection(){
