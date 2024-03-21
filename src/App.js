@@ -4,13 +4,10 @@ import SkillsSection from "./components/Skills/SkillsSection/SkillsSection";
 import ProjectsSection from "./components/Projects/ProjectsSection/ProjectsSection";
 import EducationSection from "./components/Education/EducationSection/EducationSection";
 import ScrollAnimation from 'react-animate-on-scroll';
+import { useEffect } from "react";
 
 
 function App() {
-
-  const styleObject = {
-    transform: 'translateX(0)'
-  };
 
   return (
     <>
