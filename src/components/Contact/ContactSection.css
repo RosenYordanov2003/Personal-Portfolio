@@ -5,6 +5,11 @@
     justify-content: center;
     background-color: #2f1c38;
     height: auto;
+    position: relative;
+}
+
+ .loading-section :not(.loading-spinner){
+    opacity: 0.4;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:focus, 

@@ -1,13 +1,18 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import "../Contact/ContactSection.css";
 import "../Contact/ContactSectionResponsive.css";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import CircleSpinner from "../LoadingSpinner/LoadingSpinner";
 
 export default function ContactSection(){
-
+    
+    const [isLoading, setIsLoading] = useState(false);
     const form = useRef();
+
     const sendEmail = (e) => {
       e.preventDefault();
+      setIsLoading(true);
       
       const apiKey = process.env.REACT_APP_SECRET_KEY;
       const emailServiceIdKey = process.env.REACT_APP_EMAIL_SERVICE_KEY;
@@ -19,17 +24,19 @@ export default function ContactSection(){
         })
         .then(
           () => {
-            console.log('SUCCESS!');
             e.target.reset();
+            setIsLoading(false);
           },
           (error) => {
-            console.log('FAILED...', error.text);
+            setIsLoading(false);
+            console.log(error);
           },
         );
     };
     return (
 
-  <section className="contact-section">
+  <section className={`contact-section ${isLoading && 'loading-section'}`}>
+    {isLoading && <CircleSpinner/>}
     <h1 className="contact-title">Contact Me</h1>
     <h4 className="contact-subtitle">Fell free to reach out me for any questions or  opportunities!</h4>
     <form className="contact-form" ref={form} onSubmit={sendEmail}>
