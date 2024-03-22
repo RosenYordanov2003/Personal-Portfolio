@@ -1,6 +1,7 @@
 footer{
     width: 100%;
     padding: 2.2rem 6rem;
+    height: auto;
 }
 footer :where(.footer-list, .footer-social-list){
     list-style: none;
@@ -13,10 +14,14 @@ footer :where(.footer-link, .footer-link i){
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: 0.4s ease-in opacity;
 }
 .footer-social-list{
     margin-top: 3rem;
 }
 .footer-social-list{
     gap: 3rem;
+}
+.footer-link:hover{
+    opacity: 0.5;
 }

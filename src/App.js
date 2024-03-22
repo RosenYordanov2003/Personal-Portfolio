@@ -3,8 +3,9 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import SkillsSection from "./components/Skills/SkillsSection/SkillsSection";
 import ProjectsSection from "./components/Projects/ProjectsSection/ProjectsSection";
 import EducationSection from "./components/Education/EducationSection/EducationSection";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ContactSection from "./components/Contact/ContactSection";
 import Footer from "./components/Footer/Footer";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
     </ScrollAnimation>
     <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
      <EducationSection/>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
+     <ContactSection/>
     </ScrollAnimation>
     <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
      <Footer/>

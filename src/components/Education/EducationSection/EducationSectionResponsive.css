@@ -4,6 +4,7 @@
    }
    .education-section{
      padding: 2rem;
+     height: auto;
    }
    .education-container{
     width: 100%;
@@ -15,6 +16,7 @@
   }
   .education-section{
     padding: 2.2rem 3.5rem;
+    height: auto;
   }
   .education-title{
     font-size: 1.6rem;

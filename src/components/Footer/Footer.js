@@ -5,8 +5,7 @@ export default function Footer(){
     
     function navigate(sectionName){
         const element = document.querySelector(sectionName);
-
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: 'smooth'});
     }
 
     return(
@@ -18,9 +17,9 @@ export default function Footer(){
                 <li onClick={() => navigate('.education-section')}><a className="footer-link">Education</a></li>
             </ul>
             <ul className="footer-social-list">
-                <li><a href="https://www.linkedin.com/in/rosen-yordanov-4a3b27262/" target="_blank" className="footer-link"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/roskata777/" target="_blank" className="footer-link"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://github.com/RosenYordanov2003" target="_blank" className="footer-link"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/rosen-yordanov-4a3b27262/" target="_blank" className="footer-link"><i className="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/roskata777/" target="_blank" className="footer-link"><i className="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/RosenYordanov2003" target="_blank" className="footer-link"><i className="fa-brands fa-github"></i></a></li>
             </ul>
         </footer>
     )
