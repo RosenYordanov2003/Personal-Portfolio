@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    padding: 2.2rem 6rem;
+}
+footer :where(.footer-list, .footer-social-list){
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+footer :where(.footer-link, .footer-link i){
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.footer-social-list{
+    margin-top: 3rem;
+}
+.footer-social-list{
+    gap: 3rem;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 700px) {
+    footer :where(.footer-list, .footer-social-list){
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer :where(.footer-link, .footer-link i){
+        font-size: 1.3rem;
+    }
+}
