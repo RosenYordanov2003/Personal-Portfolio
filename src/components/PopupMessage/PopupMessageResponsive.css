@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+    .popup-container{
+        width: 84%;
+        padding: 1.5rem 1.1rem;
+    }
+    .popup-icon{
+       font-size: 1.4rem;
+    }
+    .close-button{
+        width: 90%;
+    }
+}
