@@ -7,12 +7,13 @@ export default function PopupMessage({ message, removeNotification }) {
     const [isActive, setIsActive] = useState(undefined);
 
     useEffect(() => {
-        setIsActive(true);
+        setTimeout(()=> {
+            setIsActive(true);
+        }, 100)
     },[])
 
 
     function handleOnCloseNotification() {
-
         setIsActive(false);
         setTimeout(() => {
             removeNotification();

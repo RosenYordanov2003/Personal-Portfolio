@@ -9,7 +9,7 @@ export default function Footer(){
     }
 
     return(
-        <footer>
+         <footer>
             <ul className="footer-list">
                 <li onClick={() => navigate('.hero-section')}><a className="footer-link">About</a></li>
                 <li onClick={() => navigate('.skills-section')}><a className="footer-link">Skills</a></li>
