@@ -23,7 +23,7 @@ export default function ProjectCard({project}){
                <p className="project-description">{project.description}</p>
             </div>
             <button onClick={() => setIsActive(!isActive)} className="description-button">{!isActive? "See Description" : "Hide Description"}
-             <i className={`fa-solid fa-angle-down description-arrow ${isActive && 'active-arrow'}`}></i>
+             <i className={`fa-solid description-arrow ${isActive ? 'fa-angle-up active-arrow' : 'fa-angle-down'}`}></i>
             </button>
             <a className="resume-link" target="_blank" href={project.linkToCode}>View Code</a>
          </div>
