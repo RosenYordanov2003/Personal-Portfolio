@@ -11,6 +11,7 @@ export default function HeroSection(){
              <p className="about-me-description">
               I'm  20 years old from Sofia, Bulgaria. I am highly motivated person who wants to learn new things
               every day, with passion to provide high-quality code with the best practices and an attention to details.
+              Changed
             </p>
             <a href={Pdf} target="_blank" className="resume-link">Check Resume</a> 
           </div>
