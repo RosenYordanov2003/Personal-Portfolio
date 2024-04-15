@@ -19,7 +19,8 @@ export default function EducationSection(){
             {name: 'C# OOP', certificate: '/Certificates/CSharpOOPCertificate.jfif'},
             {name: 'C# Advanced', certificate: '/Certificates/CSharpAdvancedCertificate.jfif'},
             {name: 'C# Fundamentals', certificate: '/Certificates/CSharpFundamentalsCertificate.jfif'},
-            {name: 'C# Basics', certificate: '/Certificates/CSharpBasicsCertificate.jfif'}
+            {name: 'C# Basics', certificate: '/Certificates/CSharpBasicsCertificate.jfif'},
+            {name: 'Fundamentals In Mathematics', certificate: '/Certificates/MathFundCertificate.jfif'}
         ]
     };
 

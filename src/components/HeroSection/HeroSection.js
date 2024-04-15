@@ -11,6 +11,7 @@ export default function HeroSection(){
              <p className="about-me-description">
               I'm  20 years old from Sofia, Bulgaria. I am highly motivated person who wants to learn new things
               every day, with passion to provide high-quality code with the best practices and an attention to details.
+              In the last 2 years I have been studying very hard programming specifically C# and frameworks related with C# and Web Development such as ASP.NET Core and Entity Framework Core.
             </p>
             <a href={Pdf} target="_blank" className="resume-link">Check Resume</a> 
           </div>

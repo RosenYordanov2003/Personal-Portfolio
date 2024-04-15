@@ -39,4 +39,7 @@
     .nav-container:has(.open) .navigation{
         transform: translateX(0%);
     }
+    .navigation li {
+        font-size: 1.1rem;
+    }
 }
