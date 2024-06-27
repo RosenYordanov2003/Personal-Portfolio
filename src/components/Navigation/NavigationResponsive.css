@@ -27,7 +27,7 @@
         transition: 0.4s ease-in transform;
     }
     .nav-container{
-        z-index: 2;
+        z-index: 100;
         height: auto;
     }
     .navigation li{

@@ -1,4 +1,5 @@
 import "../EducationModules/EducationModule.css";
+import "../EducationModules/EducationModuleResponsive.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function EducationModule({module}){

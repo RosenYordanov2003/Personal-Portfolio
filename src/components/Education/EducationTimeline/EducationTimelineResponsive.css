@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+  .education-institution-title,
+  .modules-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .education-timeline-container {
+    width: 100%;
+    padding: 1rem;
+  }
+  .module-card:nth-child(odd) ::before {
+    right: -70px;
+    z-index: 99;
+  }
+}

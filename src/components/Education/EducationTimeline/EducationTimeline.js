@@ -1,6 +1,6 @@
 import EducationModule from "../EducationModules/EducationModule"
-import "../EducationCard/EducationCard.css";
-import "../EducationCard/EducationCardResponsive.css";
+import "./EducationTimeline.css";
+import "./EducationTimelineResponsive.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function EducationCard({educationObject}){

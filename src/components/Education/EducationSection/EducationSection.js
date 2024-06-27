@@ -1,7 +1,6 @@
 import "../EducationSection/EducationSection.css";
 import "../EducationSection/EducationSectionResponsive.css";
-import "../EducationCard/EducationCard";
-import EducationCard from "../EducationCard/EducationCard";
+import EducationTimeline from "../EducationTimeline/EducationTimeline";
 export default function EducationSection(){
 
     const softUniObject = {
@@ -28,7 +27,7 @@ export default function EducationSection(){
    return(
      <section className="education-section">
          <h1 className="education-title">Education</h1>
-             <EducationCard educationObject={softUniObject}/>
+             <EducationTimeline educationObject={softUniObject}/>
      </section>
    )
 }
