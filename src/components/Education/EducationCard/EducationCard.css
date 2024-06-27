@@ -1,41 +1,29 @@
-.education-logo-container img{
-    width: 50px;
-    height: auto;
+.education-timeline-container{
+    width: 100%;
+    margin: 100px auto;
+    position: relative;
+    width: 1500px;
+    z-index: 10;
 }
-.education-institution-img-container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.education-timeline-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 56%;
+    height: 0;
+    width: 0.5rem;
+    background: -webkit-linear-gradient(180deg, hsla(284, 100%, 53%, 1) 40%, hsla(269, 85%, 41%, 1) 100%);  
+    transition: height 3s linear;
+    z-index: -1;
 }
-.education-institution-title,
-.modules-title{
-    font-size: 1.7rem;
-    color: white;
-    margin: 0;
+.education-section:has(.animated-container) .education-timeline-container::after {
+    height: 100%; 
 }
-.education-grade{
-    font-weight: bolder;
-}
-.education-container :where(.education-grade, .education-institution-description){
-    color: white;
-    font-size: 1.4rem;
-}
-.education-institution-description{
-    line-height: 1.8;
-}
-.education-modules{
-    list-style: none;
-    padding: 0;
-}
-.education-modules li{
-    margin-bottom: 1rem;
-}
-.education-modules li a{
-    color: white;
-    display: block;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-.modules-title{
-    margin-bottom: 2rem;
+@keyframes LineAnimation{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
 }

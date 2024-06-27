@@ -20,13 +20,11 @@ function App() {
     <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
       <ProjectsSection/>
     </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
      <EducationSection/>
-    </ScrollAnimation>
     <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
      <ContactSection/>
     </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true} delay={200}>
+    <ScrollAnimation animateIn="fadeInLeft" duration={2} animateOnce={true} delay={200}>
      <Footer/>
     </ScrollAnimation>
     </>

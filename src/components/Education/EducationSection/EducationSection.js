@@ -20,16 +20,15 @@ export default function EducationSection(){
             {name: 'C# Advanced', certificate: '/Certificates/CSharpAdvancedCertificate.jfif'},
             {name: 'C# Fundamentals', certificate: '/Certificates/CSharpFundamentalsCertificate.jfif'},
             {name: 'C# Basics', certificate: '/Certificates/CSharpBasicsCertificate.jfif'},
-            {name: 'Fundamentals In Mathematics', certificate: '/Certificates/MathFundCertificate.jfif'}
+            {name: 'Fundamentals In Mathematics', certificate: '/Certificates/MathFundCertificate.jfif'},
+            {name: 'MS SQL', certificate: '/Certificates/MsSqlCert.jfif'}
         ]
     };
 
    return(
      <section className="education-section">
          <h1 className="education-title">Education</h1>
-         <div className="education-container">
              <EducationCard educationObject={softUniObject}/>
-         </div>
      </section>
    )
 }
