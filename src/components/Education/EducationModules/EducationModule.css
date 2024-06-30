@@ -8,13 +8,14 @@
     color: white;
 }
 .education-timeline-container .animated:nth-child(even) .module-card{
+    transform: translateX(50%);
     right: -50%;
 }
-.education-timeline-container .animated:nth-child(even) .module-card ::before{
-    left: -104px;
+ .education-timeline-container .animated::before{
+    left: 48.9%;
     z-index: 99;
 }
-.fadeInLeft .module-card ::before{
+.education-timeline-container .fadeInLeft::before{
     opacity: 0;
     content: "";
     position: absolute;
@@ -36,8 +37,4 @@
     transform: scale(1);
     opacity: 1;
    }
-}
-.module-card:nth-child(odd) ::before{
-    right: -70px;
-    z-index: 99;
 }

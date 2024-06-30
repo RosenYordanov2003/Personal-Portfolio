@@ -1,15 +1,14 @@
 .education-timeline-container{
-    width: 100%;
     margin: 100px auto;
     position: relative;
-    width: 1500px;
+    width: 1400px;
     z-index: 10;
 }
 .education-timeline-container::after{
     content: "";
     position: absolute;
     top: 0;
-    right: 56%;
+    right: 50%;
     height: 0;
     width: 0.5rem;
     background: -webkit-linear-gradient(180deg, hsla(284, 100%, 53%, 1) 40%, hsla(269, 85%, 41%, 1) 100%);  
