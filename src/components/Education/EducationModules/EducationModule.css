@@ -7,6 +7,16 @@
     margin-bottom: 3rem;
     color: white;
 }
+.module-card a{
+    color: white;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    transition: opacity 0.3s ease-in;
+}
+.module-card a:hover{
+    opacity: 0.5;
+}
 .education-timeline-container .animated:nth-child(even) .module-card{
     transform: translateX(50%);
     right: -50%;
